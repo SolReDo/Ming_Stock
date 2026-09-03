@@ -1,0 +1,11 @@
+{
+  "agent_name": "Pi Trading Risk Agent",
+  "model": "MiniMax-M2.7",
+  "memory_retention_days": 90,
+  "daily_log_enabled": true,
+  "risk_policy": {
+    "danger_threshold": 3,
+    "watch_threshold": 1,
+    "requires_confirmation": true
+  }
+}
